@@ -10,8 +10,8 @@ The analysis uses data from the LISS panel managed by Centerdata at Tilburg Univ
 The project applies a pipeline of preprocessing, feature selection, and modeling to understand the dynamics of fertility intentions. Key steps include:
 
 - **Data Preprocessing**: Handling missing values and applying necessary transformations to prepare the data for modeling.
-- **Feature Selection**: Utilizing Recursive Feature Elimination with Cross-Validation (RFECV) integrated with XGBoost to identify significant features.
 - **Over-sampling**: Implementing SMOTE to address class imbalance, ensuring the model's robustness across different demographic groups.
+- **Feature Selection**: Utilizing Recursive Feature Elimination with Cross-Validation (RFECV) integrated with XGBoost to identify significant features.
 - **Modeling**: Employing Explainable Boosting Machine (EBM) for its interpretability to better understand how each feature influences fertility intentions.
 
 ## Results
